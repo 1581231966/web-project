@@ -1,0 +1,18 @@
+html{
+    background-color: cadetblue;
+}
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: inherit;
+}
+h2, p{
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, "Microsoft YaHei";
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}
