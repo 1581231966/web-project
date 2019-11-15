@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test page</title>
+        <link href="styles/change.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <p>名称</p>
+        <button onclick="changeName()">点击切换名称</button>
+        <script>
+            function changeName() {
+                let text = document.querySelector('p');
+                text.textContent = prompt('Input your name');
+            }
+        </script>
+    </body>
+</html>
